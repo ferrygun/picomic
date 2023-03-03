@@ -41,11 +41,8 @@ int main() {
     adc_init();
     adc_gpio_init(ADC_PIN);
 
-
     while (1) {
-
         printf("%f \n", (get_axis (ADC_NUM)));
-
         //sleep_ms(10);
     }
 
